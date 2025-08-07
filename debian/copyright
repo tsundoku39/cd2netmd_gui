@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/Jo2003/cd2netmd_gui
+Upstream-Name: cd2netmd_gui
+Upstream-Contact: https://github.com/Jo2003/cd2netmd_gui
+
+Files:
+ *
+Copyright:
+ 2021-2025 Jörg Olenka <olenka.joerg@gmail.com>
+License: GPL-3
+
+Files:
+ debian/*
+Copyright:
+ 2025 Maia <maia@tsundoku.ne.jp>
+License: GPL-2+
+Comment:
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

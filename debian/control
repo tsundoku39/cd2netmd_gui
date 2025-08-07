@@ -1,0 +1,29 @@
+Source: netmdwizard
+Section: sound
+Priority: optional
+Maintainer: Maia <maia@tsundoku.ne.jp>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ libcdio-dev,
+ libcdio-cdda-dev,
+ libcdio-paranoia-dev,
+ libcue-dev,
+ libiso9660-dev,
+ libjson-c-dev,
+ libnetmd++,
+ libtag1-dev,
+ libudf-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/Jo2003/cd2netmd_gui
+Vcs-Browser: https://github.com/tsundoku39/cd2netmd_gui
+Vcs-Git: https://github.com/tsundoku39/cd2netmd_gui.git
+
+Package: netmdwizard
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: A tool like Sony's NetMD Simple Burner
+ Interfaces with a NetMD recorder to create and edit MiniDisc content.

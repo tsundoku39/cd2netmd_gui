@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=NetMD Wizard
+Comment=Create and edit MiniDiscs with a NetMD recorder
+Exec=netmd_wizard
+Terminal=false
+Type=Application
+SingleMainWindow=true
+Icon=netmd_wizard
+Categories=AudioVideo;Audio

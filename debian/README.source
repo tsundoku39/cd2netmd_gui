@@ -1,0 +1,9 @@
+netmdwizard for Debian
+---------------------
+
+Assigned version number 2.1.7 (unreleased) to work around odd upstream
+versioning conventions - incrementing version with updates to "prebuild" libraries, etc.
+Includes some unreleased commits since 2.1.6.
+
+ -- Maia <maia@tsundoku.ne.jp>  Wed, 06 Aug 2025 16:09:11 -0700
+
